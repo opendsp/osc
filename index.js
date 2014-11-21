@@ -3,6 +3,7 @@
  * @module osc
  * @author stagas
  * @org opendsp
+ * @version 1.1.0
  * @desc oscillators
  * @license mit
  */
