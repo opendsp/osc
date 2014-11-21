@@ -29,6 +29,10 @@ export function sqr(t, f){
   return (t*f % 1/f < 1/f/2) * 2 - 1;
 }
 
+export function pulse(t, f, w){
+  return (t*f % 1/f < 1/f/2*w) * 2 - 1;
+}
+
 export function noise(){
   return Math.random() * 2 - 1;
 }
